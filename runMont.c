@@ -39,7 +39,7 @@ unsigned int token_arr_len(void)
 
 /**
  * is_empty_line - function to check if a
- * 	line read from getline only contains delimiters.
+ *	line read from getline only contains delimiters.
  * @line: points to the line.
  * @delims: string of delimiter characters.
  *
