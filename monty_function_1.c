@@ -52,12 +52,12 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	}
 	else
 	{
-		temp = *stack;
-		while (temp->next)
+		tmep = *stack;
+		while (tmep->next)
 			tmep = tmep->next;
 		new->prev = tmep;
 		new->next = NULL;
-		tmp->next = new;
+		tmep->next = new;
 	}
 }
 
@@ -72,7 +72,7 @@ void monty_pall(stack_t **stack, unsigned int line_number)
 
 	while (tmep)
 	{
-		printf("%d\n", tmp->n);
+		printf("%d\n", tmep->n);
 		tmep = tmep->next;
 	}
 	(void)line_number;

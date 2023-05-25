@@ -38,7 +38,7 @@ char **strtow(char *str, char *delims)
 			str = get_next_word(str, delims);
 		}
 		words[x] = malloc((wordLen + 1) * sizeof(char));
-		if (words[i] == NULL)
+		if (words[x] == NULL)
 		{
 			while (x >= 0)
 			{

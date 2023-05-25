@@ -23,7 +23,7 @@ char *get_int(int num)
 	len = get_numbase_len(tmp, 10);
 
 	if (num < 0 || num_l < 0)
-		length++;
+		len++;
 	ret = malloc(len + 1);
 	if (!ret)
 		return (NULL);
