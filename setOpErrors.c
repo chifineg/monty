@@ -1,7 +1,8 @@
 #include "monty.h"
 
 /**
- * set_op_tok_error - function to set last element of op_toks to be an error code.
+ * set_op_tok_error - function to set last
+ * 	element of op_toks to be an error code.
  * @error_code: Int value to store as a string in op_toks.
  */
 void set_op_tok_error(int error_code)

@@ -48,7 +48,8 @@ int init_stack(stack_t **stack)
 }
 
 /**
- * check_mode - function to check if a stack_t linked list is in stack or queue mode.
+ * check_mode - function to check if a stack_t linked list
+ * 	is in stack or queue mode.
  * @stack: points to the top (stack) or bottom (queue)
  *         of a stack_t linked list.
  *
